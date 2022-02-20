@@ -153,6 +153,9 @@
         flex: 1;
         margin-top: 50px;
     }
+     .section_nav_container_sidebar {
+        padding-left: 0px;
+    }
 
 
 }
