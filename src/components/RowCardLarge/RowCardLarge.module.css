@@ -1,0 +1,11 @@
+.animes_flex_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.animes_flex_container>* {
+    flex: 1 1 300px;
+}

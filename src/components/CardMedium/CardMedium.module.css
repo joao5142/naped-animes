@@ -1,0 +1,31 @@
+.card_medium {
+    height: 165px;
+    position: relative;
+
+}
+
+.card_medium p,
+.card_medium button {
+    position: absolute;
+    left: 15px;
+    z-index: 2;
+}
+
+.card_medium .card_button {
+    top: 15px;
+    padding: 2px 10px;
+}
+
+.card_text {
+
+    bottom: 10px;
+    width: 90;
+    font-size: 13px;
+
+
+}
+
+.card_medium:nth-of-type(1) {
+    margin-bottom: 20px;
+
+}

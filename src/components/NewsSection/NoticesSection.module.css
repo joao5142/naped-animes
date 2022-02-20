@@ -1,0 +1,30 @@
+.news_container {}
+
+.news_title {
+    font-size: 21px;
+    position: relative;
+    max-width: 300px;
+}
+
+.news_title::before {
+    content: '';
+    width: 70%;
+    height: 3px;
+    background-color: var(--purple-light-color);
+    position: absolute;
+    bottom: -10px;
+}
+
+.flex_gallery_container {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.flex_gallery_container>* {
+
+    flex: 1 1 300px;
+}

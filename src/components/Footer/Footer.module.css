@@ -1,0 +1,20 @@
+.footer {
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.footer div p {
+    color: var(--white-200-color);
+
+}
+
+.footer_logo {
+    color: var(--purple-light-color);
+    font-size: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
