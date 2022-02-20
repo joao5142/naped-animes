@@ -120,6 +120,7 @@
     margin-bottom: 40px;
 }
 
+/* ##SECTION NEWS */
 .section_news {
     margin-top: 100px;
 }
@@ -152,6 +153,10 @@
     .section_nav :nth-child(2) {
         flex: 1;
         margin-top: 50px;
+    }
+
+    .section_nav_container_sidebar {
+        padding-left: 0px;
     }
 
 
