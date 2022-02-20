@@ -1,5 +1,5 @@
 import styles from "./HomeSection.module.css";
-import Image from "next/Image";
+import Image from "next/image";
 import CardMedium from "../CardMedium";
 import CardSmallPost from "../CardSmallPost";
 import CardLarge from "../CardLarge";
