@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
  </div>
 <h2>Preview</h2>
-<img margin-bottom="20px" src="assets/img/Readme.PNG">
-<img margin-bottom="20px" src="assets/img/Readme2.PNG">
-<img margin-bottom="20px" src="assets/img/Readme3.PNG">
-<h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://lokilandingpage.netlify.app/">Preview no Netlify</a>
+<img margin-bottom="20px" src="public/assets/img/Readme.PNG">
+<img margin-bottom="20px" src="public/assets/img/Readme2.PNG">
+<img margin-bottom="20px" src="public/assets/img/Readme3.PNG">
+<h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://desafio-iuricode-10-rfck7slm7-joao5142.vercel.app/">Preview na Vercel</a>
