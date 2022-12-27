@@ -1,4 +1,4 @@
-<h1>Desafio 10- Naped</h1>
+<h1>Naped Animes</h1>
 <h4>Desafio Naped Desenvolvido com React e NextJs</h4>
 <h2>Tecnologias Utilizadas</h2>
 <div style="display: inline_block">
