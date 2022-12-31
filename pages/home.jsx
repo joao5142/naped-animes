@@ -4,13 +4,12 @@ import HomeSection from "../src/components/sections/HomeSection";
 import Footer from "../src/components/presentation/Footer";
 import Head from "next/head";
 import { useEffect } from "react";
+import Seo from "../src/components/seo";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Home Naped</title>
-      </Head>
+      <Seo title="Home Naped" />
 
       <Header />
       <Main>

@@ -3,12 +3,14 @@ import Input from "../src/components/presentation/Input";
 import Button from "../src/components/presentation/Button";
 
 import { useRouter } from "next/router";
+import Seo from "../src/components/seo";
 
 export default function LoginHome() {
   const router = useRouter();
 
   return (
     <>
+      <Seo title="Naped Register" />
       <div className={styles["login-container"]}>
         <div className={styles["content-container"]}>
           <a className="logo">Naped</a>
