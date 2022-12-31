@@ -1,0 +1,28 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.content-container {
+  width: 350px;
+}
+.register-link {
+  color: rgb(114, 159, 255);
+
+  font-size: 0.8rem;
+
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+
+  cursor: pointer;
+}
+.register-link:hover {
+  color: aliceblue;
+}

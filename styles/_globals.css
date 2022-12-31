@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lexend+Deca&display=swap");
+
+/*##RESET*/
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  color: var(--white-color);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+button,
+input,
+textarea {
+  border: 0;
+  outline: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+body {
+  background-color: var(--dark-color);
+  font-family: "Lexend Deca", sans-serif;
+  padding: 0px 160px;
+}
+/*##VARIAVEIS*/
+:root {
+  --purple-light-color: #8257e6;
+  --white-color: #fefbfb;
+  --white-200-color: #c4c4c4;
+  --gray-200-color: #282830;
+  --dark-color: #13131f;
+}
+
+/* ##SCROLL SECTION */
+body::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--gray-200-color);
+  border-radius: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--purple-light-color);
+  max-height: 200px;
+  border-radius: 12px;
+}
+
+@media (max-width: 1200px) {
+  body {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+.button {
+  width: 100%;
+  padding: 13px 20px;
+  margin-top: 30px;
+  background-color: var(--purple-light-color);
+  border-radius: 10px;
+
+  display: block;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(110%);
+}
+.button:active {
+  transform: scale(0.98);
+}

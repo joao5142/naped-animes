@@ -1,8 +1,8 @@
-import Header from "../../src/components/Header";
-import Main from "../../src/components/Main";
-import NewsSection from "../../src/components/NewsSection";
-import Post from "../../src/components/Post";
-import Footer from "../../src/components/Footer";
+import Header from "/src/components/presentation/Header";
+import Main from "/src/components/presentation/Main";
+import NewsSection from "/src/components/sections/NewsSection";
+import Post from "/src/components/sections/Post";
+import Footer from "/src/components/presentation/Footer";
 
 export default function PostPage(props) {
   return (
