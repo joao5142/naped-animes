@@ -36,7 +36,7 @@ export default function AnimesSection() {
 
         <div>
           <input
-            placeholder="Quer ajuda na procura? Pesquise aqui"
+            placeholder="Pesquise seu anime aqui"
             type="text"
             className={styles.search_input}
           />

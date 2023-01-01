@@ -42,7 +42,7 @@
   bottom: 15px;
   left: 25px;
   width: 90%;
-  font-size: 24px;
+  font-size: 1.4rem;
   z-index: 3;
 }
 
@@ -116,11 +116,6 @@
 /* ##SECTION NEWS */
 .section_news {
   margin-top: 100px;
-}
-
-@media (max-width: 1300px) {
-  .banner_text {
-  }
 }
 
 @media (max-width: 780px) {
